@@ -1,0 +1,53 @@
+.centered-image {
+  width: 120px;
+  height: 115px;
+  border-radius: 50%;
+  border: 2px solid yellow;
+  
+  
+}  
+.my-box {
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  padding: 40px;
+  margin: 5px auto;
+  
+ }
+ .profile-image { 
+  display: flex;          
+  flex-direction: row; 
+  align-items: center;     
+  justify-content: center;
+  padding: 0px;
+ }
+
+
+ 
+h1 {
+  color: #FF0037;
+  font-family: Sans-serif;
+ 
+}
+h3 {
+  color: #A62BDA;
+  font-family: Cursive;
+}
+
+.other-details {
+  display: flex; 
+ 
+  
+
+
+.about, .education, .contact {
+  
+  width: 350px;
+  height: 200px;
+  background-color: #83BCDC;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5px auto;
+
+
