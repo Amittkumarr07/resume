@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit's portfolio</title>
+    <title>Amit's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">portfolio</div>
-        </div>
-        <ul class="nav-links">
+    <nav class="navbar">
+        <a href="#about" class="logo">Amit Kumar</a>
+        <button class="menu-toggle" id="mobile-menu">&#9776;</button>
+        <ul class="nav-links" id="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <header id="about">
-		<h1>Amit Kumar</h1>
+        <h1>Amit Kumar</h1>
         <h3>Computer Science Student</h3>
         <p>I am currently studying at Government Polytechnic Supaul (SBTE Bihar). I enjoy bridging the gap between low-level systems programming and modern web development.</p>
     </header>
@@ -33,11 +34,43 @@
             </div>
             <div class="skill-card">
                 <h3>Systems & OS</h3>
-                <p>Windows, linux, Android</p>
+                <p>Windows, Linux, Android</p>
+            </div>
+        </div>
+    </section>
+
+   <section id="certifications">
+        <h2>Course Certificates</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Introduction to Cybersecurity</h3>
+                <p>Cisco Networking Academy</p>
+                <p class="cert-date">Completed: 03 Mar 2026</p>
+                <a href="cybersecurity-certificate.pdf" target="_blank" class="view-btn">View Certificate</a>
             </div>
             <div class="skill-card">
-                <h3>Core Concepts</h3>
-                <p>Web Development, Cybersecurity Fundamentals, Network Security, AI besed Development</p>
+                <h3>Applied Physics -B</h3>
+                <p>State Board of Technical Education, Bihar (SBTE)</p>
+                <p class="cert-date">Completed: January 2026</p>
+                <a href="physics-certificate.pdf" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="skill-card">
+                <h3>Web Technology</h3>
+                <p>State Board of Technical Education, Bihar (SBTE)</p>
+                <p class="cert-date">Completed: January 2026</p>
+                <a href="webtechnology-certificate.pdf" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+             <div class="skill-card">
+                <h3>Open Educational Resources</h3>
+                <p>State Board of Technical Education, Bihar (SBTE)</p>
+                <p class="cert-date">Completed: January 2026</p>
+                <a href="educational_resource-certificate.pdf" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="skill-card">
+                <h3>C Programming</h3>
+                <p>State Board of Technical Education, Bihar (SBTE)</p>
+                <p class="cert-date">Completed: March 2026</p>
+                <a href="c-programming-certificate.pdf" target="_blank" class="view-btn">View Certificate</a>
             </div>
         </div>
     </section>
@@ -58,9 +91,9 @@
 
     <footer id="contact">
         <h2>Let's Connect</h2>
-        <p><a href="mailto:amitkumar9110311@gmail.com">Email: amitkumar9110311@gmail.com</a></p>
-        <p><a href="https://github.com/Amittkumarr07">GitHub: github.com/Amittkumarr07</a></p>
-        <p><a href="https://www.instagram.com/amitt_kumar_7">Instagram: @amitt_kumar_7</a></p>
+        <p><a href="mailto:amitkumar9110311@gmail.com" class="footer-link">Email: amitkumar9110311@gmail.com</a></p>
+        <p><a href="https://github.com/Amittkumarr07" class="footer-link">GitHub: github.com/Amittkumarr07</a></p>
+        <p><a href="https://www.instagram.com/amitt_kumar_7" class="footer-link">Instagram: @amitt_kumar_7</a></p>
     </footer>
 
     <script src="script.js"></script>
